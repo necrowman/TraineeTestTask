@@ -3,11 +3,12 @@ platform :ios, '8.0'
 
 target 'TraineeTestTask' do
     use_frameworks!
-    pod 'AFNetworking'
-    pod 'SDWebImage'
-    pod 'KVNProgress'
-    pod 'Lockbox'
-    pod 'TPKeyboardAvoiding'
-    pod 'UIScrollView-InfiniteScroll'
-    pod 'netfox'
+    pod 'AFNetworking', '~> 3.1.0'
+    pod 'SDWebImage', '~> 3.7.5'
+    pod 'KVNProgress', '~> 2.2.4'
+    pod 'Lockbox', '~> 3.0.0'
+    pod 'TPKeyboardAvoiding', '~> 1.3'
+    pod 'UIScrollView-InfiniteScroll', '0.7.3'
+    pod 'netfox', '~> 1.7.2'
+    pod 'SwiftyJSON', '~> 2.3.2'
 end
