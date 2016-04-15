@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TraineeTestTask
 //
-//  Created by Admin on 15/04/16.
-//  Copyright © 2016 necrowman. All rights reserved.
+//  Created by Ruslan Yupyn on 15/04/16.
+//  Copyright © 2016 yupynruslanevgenovich@gmail.com. All rights reserved.
 //
 
 import UIKit
@@ -62,7 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       // The persistent store coordinator for the application. This implementation creates and returns a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
       // Create the coordinator and store
       let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
-      let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
+      let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("TraineeTestTask.sqlite")
       var failureReason = "There was an error creating or loading the application's saved data."
       do {
           try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
